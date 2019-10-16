@@ -1,0 +1,34 @@
+.main-area {
+    background-color: green;
+}
+
+.header, .sub-header {
+    text-align: center;
+}
+
+.dice-chooser-box {
+    display: block;
+    border: 1px solid red;
+    width: 55%;
+    margin: auto;
+}
+
+.dice-chooser-box > * {
+    display: inline-flex;
+    width: 100%;
+    padding: 1px;
+    border: 1px dotted blue;
+    justify-content: center;
+}
+
+.dice-roll-buttons {
+    display: block;
+    margin: auto;
+}
+
+.dice-roll-buttons > * {
+    display: inline-flex;
+    justify-content: center;
+    padding: 3px;
+    border: 1px solid purple;
+}
